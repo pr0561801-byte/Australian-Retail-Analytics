@@ -1,0 +1,281 @@
+CustomerID	CustomerName	Gender	Age	State	City	Membership	JoinDate
+C0001	Customer 1	Male	19	Victoria	Geelong	Gold	3/04/2023
+C0002	Customer 2	Male	65	Victoria	Melbourne	Bronze	21/01/2025
+C0003	Customer 3	Male	55	Victoria	Geelong	Gold	3/03/2022
+C0004	Customer 4	Male	31	Victoria	Melbourne	Bronze	24/02/2022
+C0005	Customer 5	Male	63	Victoria	Geelong	Gold	8/07/2024
+C0006	Customer 6	Female	69	Victoria	Melbourne	Gold	15/05/2024
+C0007	Customer 7	Female	35	Victoria	Melbourne	Gold	21/11/2023
+C0008	Customer 8	Male	23	Victoria	Geelong	Gold	6/01/2024
+C0009	Customer 9	Female	56	Victoria	Geelong	Gold	29/07/2024
+C0010	Customer 10	Male	42	Victoria	Melbourne	Bronze	24/08/2023
+C0011	Customer 11	Female	54	Victoria	Melbourne	Bronze	23/05/2022
+C0012	Customer 12	Male	60	Victoria	Melbourne	Silver	13/06/2022
+C0013	Customer 13	Male	24	Victoria	Geelong	Silver	17/07/2024
+C0014	Customer 14	Female	28	Victoria	Geelong	Silver	6/03/2023
+C0015	Customer 15	Female	62	Victoria	Melbourne	Bronze	17/12/2022
+C0016	Customer 16	Male	28	Victoria	Geelong	Silver	7/07/2023
+C0017	Customer 17	Male	61	Victoria	Geelong	Gold	15/04/2023
+C0018	Customer 18	Male	69	Victoria	Geelong	Silver	3/07/2023
+C0019	Customer 19	Male	31	Victoria	Geelong	Gold	19/10/2024
+C0020	Customer 20	Female	59	Victoria	Geelong	Gold	27/06/2023
+C0021	Customer 21	Male	33	Victoria	Geelong	Bronze	12/04/2025
+C0022	Customer 22	Female	55	Victoria	Geelong	Silver	26/03/2023
+C0023	Customer 23	Male	50	Victoria	Geelong	Gold	7/04/2022
+C0024	Customer 24	Male	27	Victoria	Melbourne	Bronze	14/05/2024
+C0025	Customer 25	Male	42	Victoria	Geelong	Bronze	16/08/2024
+C0026	Customer 26	Female	53	Victoria	Melbourne	Bronze	23/08/2022
+C0027	Customer 27	Female	67	Victoria	Geelong	Gold	25/08/2023
+C0028	Customer 28	Female	28	Victoria	Geelong	Gold	24/06/2023
+C0029	Customer 29	Male	50	Victoria	Melbourne	Bronze	4/09/2023
+C0030	Customer 30	Male	27	Victoria	Geelong	Gold	9/01/2025
+C0031	Customer 31	Male	56	Victoria	Geelong	Silver	9/02/2022
+C0032	Customer 32	Male	41	Victoria	Geelong	Gold	29/04/2022
+C0033	Customer 33	Male	54	Victoria	Melbourne	Gold	22/09/2024
+C0034	Customer 34	Male	66	Victoria	Melbourne	Gold	31/08/2024
+C0035	Customer 35	Male	34	Victoria	Geelong	Gold	9/01/2025
+C0036	Customer 36	Male	63	Victoria	Geelong	Silver	4/02/2024
+C0037	Customer 37	Female	51	Victoria	Geelong	Gold	23/05/2023
+C0038	Customer 38	Male	22	Victoria	Geelong	Gold	8/02/2025
+C0039	Customer 39	Male	55	Victoria	Melbourne	Gold	26/05/2022
+C0040	Customer 40	Male	32	Victoria	Melbourne	Gold	8/11/2023
+C0041	Customer 41	Male	50	Victoria	Melbourne	Silver	21/09/2024
+C0042	Customer 42	Male	52	Victoria	Melbourne	Bronze	15/03/2025
+C0043	Customer 43	Female	33	Victoria	Geelong	Silver	25/01/2023
+C0044	Customer 44	Male	24	Victoria	Geelong	Silver	17/05/2024
+C0045	Customer 45	Female	47	Victoria	Melbourne	Bronze	21/07/2022
+C0046	Customer 46	Male	43	Victoria	Geelong	Gold	25/05/2023
+C0047	Customer 47	Male	30	Victoria	Geelong	Gold	14/05/2024
+C0048	Customer 48	Male	35	Victoria	Geelong	Gold	4/06/2022
+C0049	Customer 49	Female	69	Victoria	Melbourne	Gold	12/01/2025
+C0050	Customer 50	Male	23	Victoria	Melbourne	Gold	12/04/2024
+C0051	Customer 51	Female	48	Victoria	Melbourne	Silver	1/05/2022
+C0052	Customer 52	Male	42	Victoria	Melbourne	Silver	28/06/2023
+C0053	Customer 53	Female	36	Victoria	Geelong	Bronze	12/02/2025
+C0054	Customer 54	Female	27	Victoria	Melbourne	Silver	22/03/2023
+C0055	Customer 55	Male	55	Victoria	Melbourne	Bronze	5/10/2023
+C0056	Customer 56	Male	21	Victoria	Geelong	Bronze	23/12/2024
+C0057	Customer 57	Male	21	Victoria	Melbourne	Gold	21/05/2022
+C0058	Customer 58	Male	61	Victoria	Melbourne	Silver	3/09/2022
+C0059	Customer 59	Male	55	Victoria	Melbourne	Bronze	17/06/2022
+C0060	Customer 60	Female	60	Victoria	Geelong	Silver	23/02/2023
+C0061	Customer 61	Female	33	NSW	Newcastle	Silver	26/09/2022
+C0062	Customer 62	Female	47	NSW	Newcastle	Gold	20/01/2022
+C0063	Customer 63	Female	57	NSW	Sydney	Gold	6/01/2025
+C0064	Customer 64	Male	50	NSW	Newcastle	Gold	16/12/2023
+C0065	Customer 65	Male	33	NSW	Newcastle	Silver	20/11/2022
+C0066	Customer 66	Female	52	NSW	Newcastle	Bronze	19/12/2024
+C0067	Customer 67	Male	60	NSW	Newcastle	Bronze	1/08/2022
+C0068	Customer 68	Male	34	NSW	Sydney	Gold	7/02/2025
+C0069	Customer 69	Male	35	NSW	Newcastle	Bronze	8/03/2023
+C0070	Customer 70	Female	31	NSW	Newcastle	Bronze	27/09/2024
+C0071	Customer 71	Female	21	NSW	Sydney	Bronze	17/05/2024
+C0072	Customer 72	Female	20	NSW	Sydney	Silver	25/09/2022
+C0073	Customer 73	Female	28	NSW	Newcastle	Bronze	25/05/2024
+C0074	Customer 74	Male	25	NSW	Sydney	Bronze	2/11/2022
+C0075	Customer 75	Male	41	NSW	Sydney	Silver	19/09/2022
+C0076	Customer 76	Male	37	NSW	Newcastle	Gold	3/01/2024
+C0077	Customer 77	Male	61	NSW	Sydney	Bronze	30/07/2022
+C0078	Customer 78	Female	67	NSW	Newcastle	Bronze	13/11/2022
+C0079	Customer 79	Male	28	NSW	Sydney	Silver	20/02/2022
+C0080	Customer 80	Male	65	NSW	Newcastle	Silver	24/05/2023
+C0081	Customer 81	Female	28	NSW	Sydney	Silver	21/03/2022
+C0082	Customer 82	Female	32	NSW	Sydney	Silver	18/12/2023
+C0083	Customer 83	Female	70	NSW	Sydney	Gold	18/02/2022
+C0084	Customer 84	Male	43	NSW	Newcastle	Silver	23/05/2022
+C0085	Customer 85	Female	40	NSW	Newcastle	Bronze	3/01/2025
+C0086	Customer 86	Female	19	NSW	Sydney	Silver	1/01/2023
+C0087	Customer 87	Female	20	NSW	Sydney	Bronze	8/06/2024
+C0088	Customer 88	Female	64	NSW	Newcastle	Silver	13/11/2024
+C0089	Customer 89	Male	42	NSW	Sydney	Silver	1/04/2022
+C0090	Customer 90	Female	18	NSW	Sydney	Silver	2/06/2024
+C0091	Customer 91	Male	60	NSW	Newcastle	Bronze	5/10/2023
+C0092	Customer 92	Male	64	NSW	Newcastle	Bronze	26/09/2023
+C0093	Customer 93	Female	38	NSW	Newcastle	Bronze	29/08/2023
+C0094	Customer 94	Male	30	NSW	Newcastle	Bronze	16/02/2024
+C0095	Customer 95	Male	57	NSW	Newcastle	Silver	27/01/2025
+C0096	Customer 96	Male	37	NSW	Newcastle	Gold	30/05/2024
+C0097	Customer 97	Female	47	NSW	Newcastle	Silver	14/03/2023
+C0098	Customer 98	Female	68	NSW	Sydney	Bronze	23/06/2022
+C0099	Customer 99	Female	50	NSW	Newcastle	Gold	27/04/2023
+C0100	Customer 100	Female	32	NSW	Sydney	Gold	20/02/2022
+C0101	Customer 101	Male	33	NSW	Newcastle	Bronze	30/05/2022
+C0102	Customer 102	Female	44	NSW	Sydney	Bronze	26/02/2024
+C0103	Customer 103	Female	43	NSW	Sydney	Gold	12/01/2022
+C0104	Customer 104	Male	67	NSW	Newcastle	Gold	27/12/2022
+C0105	Customer 105	Female	21	NSW	Sydney	Gold	23/07/2024
+C0106	Customer 106	Male	69	NSW	Newcastle	Bronze	23/12/2024
+C0107	Customer 107	Female	66	NSW	Newcastle	Bronze	30/10/2024
+C0108	Customer 108	Female	53	NSW	Newcastle	Gold	30/08/2024
+C0109	Customer 109	Female	34	NSW	Sydney	Bronze	22/07/2023
+C0110	Customer 110	Female	58	NSW	Sydney	Silver	19/06/2024
+C0111	Customer 111	Male	63	NSW	Newcastle	Gold	11/07/2023
+C0112	Customer 112	Female	38	NSW	Sydney	Gold	5/11/2022
+C0113	Customer 113	Male	42	NSW	Sydney	Bronze	15/03/2023
+C0114	Customer 114	Male	44	NSW	Newcastle	Silver	16/01/2025
+C0115	Customer 115	Female	44	NSW	Sydney	Gold	10/05/2024
+C0116	Customer 116	Female	67	NSW	Sydney	Bronze	19/02/2024
+C0117	Customer 117	Female	18	NSW	Newcastle	Silver	9/03/2024
+C0118	Customer 118	Female	52	NSW	Sydney	Silver	26/03/2023
+C0119	Customer 119	Female	45	NSW	Newcastle	Gold	7/03/2024
+C0120	Customer 120	Female	60	NSW	Newcastle	Bronze	5/12/2022
+C0121	Customer 121	Female	26	Queensland	Brisbane	Silver	1/03/2025
+C0122	Customer 122	Male	23	Queensland	Gold Coast	Gold	3/08/2024
+C0123	Customer 123	Male	21	Queensland	Gold Coast	Silver	2/11/2023
+C0124	Customer 124	Male	47	Queensland	Gold Coast	Silver	16/02/2024
+C0125	Customer 125	Female	66	Queensland	Gold Coast	Silver	17/06/2022
+C0126	Customer 126	Female	19	Queensland	Brisbane	Silver	5/04/2023
+C0127	Customer 127	Male	67	Queensland	Brisbane	Gold	22/05/2023
+C0128	Customer 128	Male	19	Queensland	Brisbane	Gold	16/09/2022
+C0129	Customer 129	Female	60	Queensland	Brisbane	Bronze	23/03/2023
+C0130	Customer 130	Female	62	Queensland	Gold Coast	Silver	10/12/2022
+C0131	Customer 131	Male	67	Queensland	Brisbane	Silver	10/08/2022
+C0132	Customer 132	Male	37	Queensland	Gold Coast	Silver	11/02/2023
+C0133	Customer 133	Male	55	Queensland	Brisbane	Gold	10/09/2023
+C0134	Customer 134	Male	68	Queensland	Brisbane	Silver	27/12/2024
+C0135	Customer 135	Female	60	Queensland	Gold Coast	Gold	2/11/2024
+C0136	Customer 136	Female	18	Queensland	Gold Coast	Silver	5/08/2022
+C0137	Customer 137	Female	41	Queensland	Gold Coast	Bronze	10/11/2022
+C0138	Customer 138	Female	29	Queensland	Gold Coast	Bronze	7/01/2025
+C0139	Customer 139	Female	47	Queensland	Gold Coast	Bronze	4/07/2023
+C0140	Customer 140	Female	33	Queensland	Brisbane	Silver	12/07/2024
+C0141	Customer 141	Male	66	Queensland	Gold Coast	Bronze	16/02/2024
+C0142	Customer 142	Female	19	Queensland	Gold Coast	Silver	8/01/2023
+C0143	Customer 143	Female	31	Queensland	Gold Coast	Silver	29/11/2023
+C0144	Customer 144	Female	56	Queensland	Gold Coast	Bronze	21/01/2022
+C0145	Customer 145	Male	23	Queensland	Brisbane	Bronze	12/04/2024
+C0146	Customer 146	Female	53	Queensland	Brisbane	Bronze	2/09/2024
+C0147	Customer 147	Female	46	Queensland	Brisbane	Gold	26/08/2023
+C0148	Customer 148	Male	43	Queensland	Brisbane	Silver	6/04/2025
+C0149	Customer 149	Female	48	Queensland	Gold Coast	Silver	1/02/2025
+C0150	Customer 150	Female	40	Queensland	Gold Coast	Silver	20/09/2023
+C0151	Customer 151	Female	32	Queensland	Brisbane	Bronze	30/01/2023
+C0152	Customer 152	Female	25	Queensland	Brisbane	Gold	20/03/2023
+C0153	Customer 153	Female	35	Queensland	Gold Coast	Gold	2/02/2023
+C0154	Customer 154	Female	32	Queensland	Gold Coast	Gold	12/09/2023
+C0155	Customer 155	Male	63	Queensland	Brisbane	Silver	4/04/2022
+C0156	Customer 156	Male	53	Queensland	Gold Coast	Bronze	16/09/2022
+C0157	Customer 157	Female	24	Queensland	Brisbane	Bronze	6/08/2023
+C0158	Customer 158	Female	48	Queensland	Gold Coast	Silver	13/01/2023
+C0159	Customer 159	Male	34	Queensland	Gold Coast	Gold	14/05/2022
+C0160	Customer 160	Female	49	Queensland	Brisbane	Bronze	20/04/2022
+C0161	Customer 161	Male	27	Queensland	Gold Coast	Gold	24/05/2023
+C0162	Customer 162	Male	53	Queensland	Gold Coast	Bronze	8/04/2023
+C0163	Customer 163	Female	46	Queensland	Gold Coast	Silver	28/05/2024
+C0164	Customer 164	Female	54	Queensland	Brisbane	Bronze	23/07/2022
+C0165	Customer 165	Male	58	Queensland	Brisbane	Silver	16/06/2022
+C0166	Customer 166	Male	33	Queensland	Brisbane	Bronze	3/06/2022
+C0167	Customer 167	Male	18	Queensland	Gold Coast	Silver	20/08/2024
+C0168	Customer 168	Female	20	Queensland	Brisbane	Silver	3/08/2023
+C0169	Customer 169	Female	22	Queensland	Brisbane	Silver	10/02/2023
+C0170	Customer 170	Female	25	Queensland	Brisbane	Bronze	2/11/2022
+C0171	Customer 171	Female	70	Queensland	Brisbane	Gold	3/05/2022
+C0172	Customer 172	Male	68	Queensland	Gold Coast	Bronze	11/03/2025
+C0173	Customer 173	Female	46	Queensland	Brisbane	Silver	15/09/2023
+C0174	Customer 174	Female	35	Queensland	Gold Coast	Silver	14/06/2022
+C0175	Customer 175	Male	45	Queensland	Gold Coast	Bronze	28/05/2023
+C0176	Customer 176	Male	23	Queensland	Brisbane	Bronze	24/03/2025
+C0177	Customer 177	Male	66	Queensland	Gold Coast	Bronze	24/03/2022
+C0178	Customer 178	Male	48	Queensland	Gold Coast	Silver	7/01/2023
+C0179	Customer 179	Female	58	Queensland	Gold Coast	Gold	20/08/2024
+C0180	Customer 180	Female	44	Queensland	Gold Coast	Silver	3/08/2022
+C0181	Customer 181	Male	39	Western Australia	Perth	Bronze	11/10/2024
+C0182	Customer 182	Female	60	Western Australia	Perth	Bronze	17/03/2022
+C0183	Customer 183	Female	23	Western Australia	Perth	Silver	25/10/2023
+C0184	Customer 184	Male	67	Western Australia	Perth	Bronze	3/01/2022
+C0185	Customer 185	Female	44	Western Australia	Perth	Gold	27/11/2024
+C0186	Customer 186	Female	57	Western Australia	Perth	Bronze	24/06/2024
+C0187	Customer 187	Male	31	Western Australia	Perth	Bronze	26/09/2022
+C0188	Customer 188	Female	46	Western Australia	Perth	Gold	1/03/2022
+C0189	Customer 189	Male	63	Western Australia	Perth	Silver	2/02/2025
+C0190	Customer 190	Male	53	Western Australia	Perth	Gold	6/04/2023
+C0191	Customer 191	Male	47	Western Australia	Perth	Bronze	12/11/2022
+C0192	Customer 192	Female	63	Western Australia	Perth	Bronze	14/07/2023
+C0193	Customer 193	Female	48	Western Australia	Perth	Gold	24/07/2024
+C0194	Customer 194	Male	42	Western Australia	Perth	Bronze	6/11/2024
+C0195	Customer 195	Male	22	Western Australia	Perth	Silver	28/11/2023
+C0196	Customer 196	Female	70	Western Australia	Perth	Silver	4/09/2023
+C0197	Customer 197	Female	27	Western Australia	Perth	Bronze	18/09/2024
+C0198	Customer 198	Female	39	Western Australia	Perth	Silver	22/10/2023
+C0199	Customer 199	Male	62	Western Australia	Perth	Bronze	24/02/2024
+C0200	Customer 200	Male	67	Western Australia	Perth	Gold	14/10/2023
+C0201	Customer 201	Female	63	South Australia	Adelaide	Silver	8/11/2022
+C0202	Customer 202	Female	20	South Australia	Adelaide	Bronze	11/11/2023
+C0203	Customer 203	Male	46	South Australia	Adelaide	Bronze	24/07/2024
+C0204	Customer 204	Male	64	South Australia	Adelaide	Silver	13/11/2022
+C0205	Customer 205	Male	48	South Australia	Adelaide	Silver	25/03/2024
+C0206	Customer 206	Male	39	South Australia	Adelaide	Silver	26/09/2024
+C0207	Customer 207	Male	57	South Australia	Adelaide	Gold	12/08/2023
+C0208	Customer 208	Male	65	South Australia	Adelaide	Silver	21/07/2022
+C0209	Customer 209	Male	46	South Australia	Adelaide	Bronze	6/09/2023
+C0210	Customer 210	Male	20	South Australia	Adelaide	Gold	24/08/2023
+C0211	Customer 211	Female	41	South Australia	Adelaide	Gold	16/05/2023
+C0212	Customer 212	Female	54	South Australia	Adelaide	Gold	25/12/2022
+C0213	Customer 213	Male	57	South Australia	Adelaide	Bronze	9/05/2023
+C0214	Customer 214	Female	55	South Australia	Adelaide	Gold	2/08/2024
+C0215	Customer 215	Female	47	South Australia	Adelaide	Bronze	20/01/2022
+C0216	Customer 216	Female	36	South Australia	Adelaide	Gold	23/06/2024
+C0217	Customer 217	Female	55	South Australia	Adelaide	Bronze	18/05/2024
+C0218	Customer 218	Female	47	South Australia	Adelaide	Gold	27/02/2024
+C0219	Customer 219	Female	24	South Australia	Adelaide	Silver	17/03/2025
+C0220	Customer 220	Female	54	South Australia	Adelaide	Bronze	28/08/2023
+C0221	Customer 221	Male	60	Tasmania	Hobart	Silver	17/01/2022
+C0222	Customer 222	Male	56	Tasmania	Hobart	Silver	17/04/2023
+C0223	Customer 223	Female	32	Tasmania	Hobart	Bronze	29/05/2023
+C0224	Customer 224	Male	58	Tasmania	Hobart	Bronze	22/03/2022
+C0225	Customer 225	Female	68	Tasmania	Hobart	Gold	1/04/2025
+C0226	Customer 226	Female	64	Tasmania	Hobart	Gold	28/08/2023
+C0227	Customer 227	Female	65	Tasmania	Hobart	Gold	16/02/2023
+C0228	Customer 228	Male	68	Tasmania	Hobart	Bronze	24/10/2024
+C0229	Customer 229	Female	28	Tasmania	Hobart	Silver	28/08/2023
+C0230	Customer 230	Female	69	Tasmania	Hobart	Silver	4/06/2022
+C0231	Customer 231	Male	66	Tasmania	Hobart	Bronze	24/03/2024
+C0232	Customer 232	Female	23	Tasmania	Hobart	Gold	26/06/2023
+C0233	Customer 233	Male	47	Tasmania	Hobart	Bronze	21/06/2023
+C0234	Customer 234	Female	70	Tasmania	Hobart	Gold	24/04/2023
+C0235	Customer 235	Female	19	Tasmania	Hobart	Bronze	30/03/2023
+C0236	Customer 236	Male	58	Tasmania	Hobart	Bronze	11/09/2023
+C0237	Customer 237	Female	25	Tasmania	Hobart	Gold	18/03/2022
+C0238	Customer 238	Female	49	Tasmania	Hobart	Gold	26/04/2023
+C0239	Customer 239	Male	42	Tasmania	Hobart	Silver	11/01/2025
+C0240	Customer 240	Female	55	Tasmania	Hobart	Silver	22/07/2022
+C0241	Customer 241	Female	57	ACT	Canberra	Silver	9/03/2022
+C0242	Customer 242	Female	31	ACT	Canberra	Silver	29/04/2023
+C0243	Customer 243	Female	24	ACT	Canberra	Bronze	5/01/2024
+C0244	Customer 244	Male	43	ACT	Canberra	Gold	8/09/2022
+C0245	Customer 245	Female	23	ACT	Canberra	Bronze	13/02/2022
+C0246	Customer 246	Male	68	ACT	Canberra	Gold	15/09/2022
+C0247	Customer 247	Male	22	ACT	Canberra	Bronze	19/03/2023
+C0248	Customer 248	Male	39	ACT	Canberra	Bronze	6/01/2022
+C0249	Customer 249	Female	27	ACT	Canberra	Bronze	29/05/2023
+C0250	Customer 250	Male	25	ACT	Canberra	Gold	31/01/2022
+C0251	Customer 251	Female	68	ACT	Canberra	Bronze	26/10/2023
+C0252	Customer 252	Male	29	ACT	Canberra	Gold	17/09/2022
+C0253	Customer 253	Female	51	ACT	Canberra	Bronze	11/05/2022
+C0254	Customer 254	Female	46	ACT	Canberra	Bronze	12/08/2022
+C0255	Customer 255	Female	50	ACT	Canberra	Bronze	30/03/2022
+C0256	Customer 256	Female	47	ACT	Canberra	Gold	7/09/2024
+C0257	Customer 257	Female	45	ACT	Canberra	Silver	27/06/2024
+C0258	Customer 258	Male	23	ACT	Canberra	Bronze	31/10/2022
+C0259	Customer 259	Male	26	ACT	Canberra	Bronze	13/04/2025
+C0260	Customer 260	Female	42	ACT	Canberra	Silver	1/11/2024
+C0261	Customer 261	Female	24	Northern Territory	Darwin	Bronze	3/02/2025
+C0262	Customer 262	Male	45	Northern Territory	Darwin	Gold	27/04/2024
+C0263	Customer 263	Female	70	Northern Territory	Darwin	Silver	1/05/2024
+C0264	Customer 264	Male	38	Northern Territory	Darwin	Silver	7/06/2023
+C0265	Customer 265	Female	27	Northern Territory	Darwin	Gold	6/07/2022
+C0266	Customer 266	Male	23	Northern Territory	Darwin	Gold	3/02/2024
+C0267	Customer 267	Male	53	Northern Territory	Darwin	Bronze	24/02/2025
+C0268	Customer 268	Female	60	Northern Territory	Darwin	Silver	26/12/2023
+C0269	Customer 269	Female	64	Northern Territory	Darwin	Silver	2/10/2023
+C0270	Customer 270	Female	24	Northern Territory	Darwin	Gold	14/09/2024
+C0271	Customer 271	Male	24	Northern Territory	Darwin	Bronze	23/01/2024
+C0272	Customer 272	Male	66	Northern Territory	Darwin	Bronze	9/04/2023
+C0273	Customer 273	Female	53	Northern Territory	Darwin	Bronze	2/07/2023
+C0274	Customer 274	Male	29	Northern Territory	Darwin	Bronze	25/09/2023
+C0275	Customer 275	Female	40	Northern Territory	Darwin	Gold	21/10/2022
+C0276	Customer 276	Female	22	Northern Territory	Darwin	Bronze	4/03/2022
+C0277	Customer 277	Male	65	Northern Territory	Darwin	Silver	9/05/2024
+C0278	Customer 278	Female	39	Northern Territory	Darwin	Silver	1/10/2023
+C0279	Customer 279	Female	67	Northern Territory	Darwin	Gold	15/11/2022
+C0280	Customer 280	Male	66	Northern Territory	Darwin	Bronze	17/06/2022

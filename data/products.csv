@@ -1,0 +1,101 @@
+ProductID	Category	SubCategory	ProductName	UnitCost	UnitPrice
+P001	Electronics	Phone	Electronics Product 1	144	223.85
+P002	Electronics	Phone	Electronics Product 2	253	426.47
+P003	Electronics	Tablet	Electronics Product 3	144	197.63
+P004	Electronics	Laptop	Electronics Product 4	63	93
+P005	Electronics	Tablet	Electronics Product 5	150	261.39
+P006	Electronics	Phone	Electronics Product 6	254	411.87
+P007	Electronics	Tablet	Electronics Product 7	28	38.54
+P008	Electronics	Phone	Electronics Product 8	33	39.8
+P009	Electronics	Laptop	Electronics Product 9	489	669.43
+P010	Electronics	Phone	Electronics Product 10	396	556.15
+P011	Electronics	Tablet	Electronics Product 11	66	79.61
+P012	Electronics	Phone	Electronics Product 12	225	301.63
+P013	Electronics	Tablet	Electronics Product 13	277	488.33
+P014	Electronics	Phone	Electronics Product 14	291	543.2
+P015	Electronics	Tablet	Electronics Product 15	41	62.22
+P016	Electronics	Phone	Electronics Product 16	26	40.27
+P017	Electronics	Phone	Electronics Product 17	476	600.85
+P018	Electronics	Phone	Electronics Product 18	299	461.48
+P019	Electronics	Phone	Electronics Product 19	368	630.06
+P020	Electronics	Phone	Electronics Product 20	63	96.01
+P021	Furniture	Cabinet	Furniture Product 1	92	169.38
+P022	Furniture	Chair	Furniture Product 2	240	447.75
+P023	Furniture	Desk	Furniture Product 3	50	77.47
+P024	Furniture	Chair	Furniture Product 4	129	199.76
+P025	Furniture	Chair	Furniture Product 5	273	344.78
+P026	Furniture	Chair	Furniture Product 6	386	568.04
+P027	Furniture	Cabinet	Furniture Product 7	403	537.81
+P028	Furniture	Cabinet	Furniture Product 8	329	424.81
+P029	Furniture	Chair	Furniture Product 9	104	200.17
+P030	Furniture	Cabinet	Furniture Product 10	184	327.87
+P031	Furniture	Desk	Furniture Product 11	422	556.26
+P032	Furniture	Desk	Furniture Product 12	79	110.98
+P033	Furniture	Cabinet	Furniture Product 13	313	413.88
+P034	Furniture	Cabinet	Furniture Product 14	43	57.69
+P035	Furniture	Cabinet	Furniture Product 15	257	403.79
+P036	Furniture	Cabinet	Furniture Product 16	394	655.45
+P037	Furniture	Cabinet	Furniture Product 17	478	910.9
+P038	Furniture	Chair	Furniture Product 18	330	656.44
+P039	Furniture	Chair	Furniture Product 19	447	883.62
+P040	Furniture	Chair	Furniture Product 20	82	127.25
+P041	Groceries	Tea	Groceries Product 1	231	393.88
+P042	Groceries	Pasta	Groceries Product 2	307	382.2
+P043	Groceries	Tea	Groceries Product 3	42	60.83
+P044	Groceries	Tea	Groceries Product 4	24	29.89
+P045	Groceries	Coffee	Groceries Product 5	44	75.49
+P046	Groceries	Tea	Groceries Product 6	319	534.41
+P047	Groceries	Pasta	Groceries Product 7	241	401.09
+P048	Groceries	Pasta	Groceries Product 8	463	570.79
+P049	Groceries	Pasta	Groceries Product 9	338	456.5
+P050	Groceries	Coffee	Groceries Product 10	248	397.07
+P051	Groceries	Tea	Groceries Product 11	235	301.46
+P052	Groceries	Pasta	Groceries Product 12	370	468.96
+P053	Groceries	Pasta	Groceries Product 13	93	114.51
+P054	Groceries	Pasta	Groceries Product 14	229	456.35
+P055	Groceries	Tea	Groceries Product 15	272	459.09
+P056	Groceries	Tea	Groceries Product 16	195	377.2
+P057	Groceries	Pasta	Groceries Product 17	214	389.39
+P058	Groceries	Pasta	Groceries Product 18	311	386.23
+P059	Groceries	Tea	Groceries Product 19	336	493.15
+P060	Groceries	Tea	Groceries Product 20	53	87.26
+P061	Office Supplies	Printer Paper	Office Supplies Product 1	150	210.24
+P062	Office Supplies	Notebook	Office Supplies Product 2	498	958.69
+P063	Office Supplies	Printer Paper	Office Supplies Product 3	175	221.41
+P064	Office Supplies	Pen	Office Supplies Product 4	77	148.87
+P065	Office Supplies	Printer Paper	Office Supplies Product 5	500	862.42
+P066	Office Supplies	Printer Paper	Office Supplies Product 6	205	267.15
+P067	Office Supplies	Printer Paper	Office Supplies Product 7	485	614.87
+P068	Office Supplies	Pen	Office Supplies Product 8	197	337.81
+P069	Office Supplies	Printer Paper	Office Supplies Product 9	421	548.24
+P070	Office Supplies	Printer Paper	Office Supplies Product 10	429	839.85
+P071	Office Supplies	Printer Paper	Office Supplies Product 11	472	765.17
+P072	Office Supplies	Pen	Office Supplies Product 12	348	535.48
+P073	Office Supplies	Notebook	Office Supplies Product 13	14	20.86
+P074	Office Supplies	Pen	Office Supplies Product 14	491	673.33
+P075	Office Supplies	Notebook	Office Supplies Product 15	103	142.27
+P076	Office Supplies	Notebook	Office Supplies Product 16	84	105.99
+P077	Office Supplies	Printer Paper	Office Supplies Product 17	264	479.61
+P078	Office Supplies	Printer Paper	Office Supplies Product 18	457	740.9
+P079	Office Supplies	Printer Paper	Office Supplies Product 19	177	336.5
+P080	Office Supplies	Notebook	Office Supplies Product 20	72	120.8
+P081	Health	Shampoo	Health Product 1	88	118.33
+P082	Health	Vitamin	Health Product 2	399	678.22
+P083	Health	Soap	Health Product 3	374	579.75
+P084	Health	Vitamin	Health Product 4	191	332.55
+P085	Health	Shampoo	Health Product 5	232	391.73
+P086	Health	Shampoo	Health Product 6	406	633.01
+P087	Health	Soap	Health Product 7	127	183.84
+P088	Health	Soap	Health Product 8	467	872.4
+P089	Health	Soap	Health Product 9	352	689.11
+P090	Health	Soap	Health Product 10	241	437.55
+P091	Health	Vitamin	Health Product 11	262	424.96
+P092	Health	Shampoo	Health Product 12	423	575.18
+P093	Health	Vitamin	Health Product 13	75	142.38
+P094	Health	Soap	Health Product 14	333	527.63
+P095	Health	Shampoo	Health Product 15	288	560.86
+P096	Health	Vitamin	Health Product 16	438	706.37
+P097	Health	Vitamin	Health Product 17	150	190.07
+P098	Health	Shampoo	Health Product 18	144	224.56
+P099	Health	Vitamin	Health Product 19	80	149.19
+P100	Health	Soap	Health Product 20	489	942.99
