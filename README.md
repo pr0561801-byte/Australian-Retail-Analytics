@@ -40,11 +40,7 @@ This project demonstrates an end-to-end retail analytics solution using SQL Serv
 
 ## Tableau Public Dashboard
 
-Paste your Tableau Public URL here.
-
-Example:
-
-https://public.tableau.com/views/AustralianRetailAnalyticsDashboard/...
+https://public.tableau.com/app/profile/priya.koti/viz/AustralianRetailDashboard/AustralianRetailDashboard?publish=yes&showOnboarding=true
 
 ## Skills Demonstrated
 
