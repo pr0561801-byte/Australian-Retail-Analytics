@@ -1,0 +1,1938 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20252.25.1003.1601                               -->
+<workbook original-version='18.1' source-build='2025.2.4 (20252.25.1003.1601)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Sheet1 (masterdataanalytics)' inline='true' name='federated.0aseg4301hfego16ka7931q10ped' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='masterdataanalytics' name='excel-direct.0xhith50d5t7gu1a1teh81mz18tx'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Tejaswini Naveen/Downloads/masterdataanalytics.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.0xhith50d5t7gu1a1teh81mz18tx' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:L5001:no:A1:L5001:0' header='yes' outcome='6'>
+            <column datatype='string' name='SaleID' ordinal='0' />
+            <column datatype='date' name='Date' ordinal='1' />
+            <column datatype='string' name='State' ordinal='2' />
+            <column datatype='string' name='StoreName' ordinal='3' />
+            <column datatype='string' name='ProductName' ordinal='4' />
+            <column datatype='string' name='Category' ordinal='5' />
+            <column datatype='string' name='CustomerName' ordinal='6' />
+            <column datatype='string' name='Membership' ordinal='7' />
+            <column datatype='string' name='EmployeeName' ordinal='8' />
+            <column datatype='integer' name='Quantity' ordinal='9' />
+            <column datatype='real' name='SalesAmount' ordinal='10' />
+            <column datatype='real' name='Profit' ordinal='11' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:L5001:no:A1:L5001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SaleID</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[SaleID]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>SaleID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RAU_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_DDC52CC7E02141978F2F10BA6FD2A0BE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_DDC52CC7E02141978F2F10BA6FD2A0BE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[State]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>State</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RAU_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_DDC52CC7E02141978F2F10BA6FD2A0BE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>StoreName</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[StoreName]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>StoreName</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RAU_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_DDC52CC7E02141978F2F10BA6FD2A0BE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ProductName</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ProductName]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>ProductName</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RAU_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_DDC52CC7E02141978F2F10BA6FD2A0BE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Category</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Category]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Category</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RAU_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_DDC52CC7E02141978F2F10BA6FD2A0BE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CustomerName</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[CustomerName]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>CustomerName</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RAU_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_DDC52CC7E02141978F2F10BA6FD2A0BE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Membership</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Membership]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Membership</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RAU_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_DDC52CC7E02141978F2F10BA6FD2A0BE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EmployeeName</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[EmployeeName]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>EmployeeName</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RAU_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_DDC52CC7E02141978F2F10BA6FD2A0BE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Quantity</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Quantity]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Quantity</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_DDC52CC7E02141978F2F10BA6FD2A0BE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SalesAmount</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[SalesAmount]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>SalesAmount</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_DDC52CC7E02141978F2F10BA6FD2A0BE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Profit</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Profit]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Profit</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_DDC52CC7E02141978F2F10BA6FD2A0BE]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Profit Margin' datatype='real' default-format='p0.00%' name='[Calculation_556194572352389120]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([Profit]) / SUM([SalesAmount])' />
+      </column>
+      <column caption='Customer Name' datatype='string' name='[CustomerName]' role='dimension' type='nominal' />
+      <column caption='Employee Name' datatype='string' name='[EmployeeName]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Membership]' role='dimension' type='nominal' />
+      <column caption='Product Name' datatype='string' name='[ProductName]' role='dimension' type='nominal' />
+      <column caption='Sale ID' datatype='string' name='[SaleID]' role='dimension' type='nominal' />
+      <column caption='Sales Amount' datatype='real' name='[SalesAmount]' role='measure' type='quantitative' />
+      <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='Store Name' datatype='string' name='[StoreName]' role='dimension' type='nominal' />
+      <column caption='Sales by State' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_DDC52CC7E02141978F2F10BA6FD2A0BE]' role='measure' type='quantitative' />
+      <column-instance column='[Membership]' derivation='None' name='[none:Membership:nk]' pivot='key' type='nominal' />
+      <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/TEJASW~1/AppData/Local/Temp/TableauTemp/#TableauTemp_1vdacb50nsi62p1gj6hig099sp56.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='07/01/2026 01:59:34 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>SaleID</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[SaleID]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SaleID</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5000</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RAU_S2' />
+              <object-id>[Sheet1_DDC52CC7E02141978F2F10BA6FD2A0BE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Date</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Date</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Sheet1</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>663</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_DDC52CC7E02141978F2F10BA6FD2A0BE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>State</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[State]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>State</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RAU_S2' />
+              <object-id>[Sheet1_DDC52CC7E02141978F2F10BA6FD2A0BE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>StoreName</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[StoreName]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>StoreName</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RAU_S2' />
+              <object-id>[Sheet1_DDC52CC7E02141978F2F10BA6FD2A0BE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ProductName</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[ProductName]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ProductName</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>100</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RAU_S2' />
+              <object-id>[Sheet1_DDC52CC7E02141978F2F10BA6FD2A0BE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Category</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Category]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Category</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RAU_S2' />
+              <object-id>[Sheet1_DDC52CC7E02141978F2F10BA6FD2A0BE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>CustomerName</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[CustomerName]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>CustomerName</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>308</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RAU_S2' />
+              <object-id>[Sheet1_DDC52CC7E02141978F2F10BA6FD2A0BE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Membership</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Membership]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Membership</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RAU_S2' />
+              <object-id>[Sheet1_DDC52CC7E02141978F2F10BA6FD2A0BE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>EmployeeName</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[EmployeeName]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>EmployeeName</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>151</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RAU_S2' />
+              <object-id>[Sheet1_DDC52CC7E02141978F2F10BA6FD2A0BE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Quantity</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Quantity]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Quantity</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_DDC52CC7E02141978F2F10BA6FD2A0BE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SalesAmount</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[SalesAmount]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SalesAmount</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1737</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_DDC52CC7E02141978F2F10BA6FD2A0BE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Profit</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Profit]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Profit</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1785</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_DDC52CC7E02141978F2F10BA6FD2A0BE]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Membership:nk]' type='palette'>
+            <map to='#e15759'>
+              <bucket>&quot;Gold&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Bronze&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;Silver&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:State:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;ACT&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;South Australia&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Queensland&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Victoria&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;NSW&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Tasmania&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Northern Territory&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;Western Australia&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Australia&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <object-graph>
+        <objects>
+          <object caption='Sales by State' id='Sheet1_DDC52CC7E02141978F2F10BA6FD2A0BE'>
+            <properties context=''>
+              <relation connection='excel-direct.0xhith50d5t7gu1a1teh81mz18tx' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:L5001:no:A1:L5001:0' header='yes' outcome='6'>
+                  <column datatype='string' name='SaleID' ordinal='0' />
+                  <column datatype='date' name='Date' ordinal='1' />
+                  <column datatype='string' name='State' ordinal='2' />
+                  <column datatype='string' name='StoreName' ordinal='3' />
+                  <column datatype='string' name='ProductName' ordinal='4' />
+                  <column datatype='string' name='Category' ordinal='5' />
+                  <column datatype='string' name='CustomerName' ordinal='6' />
+                  <column datatype='string' name='Membership' ordinal='7' />
+                  <column datatype='string' name='EmployeeName' ordinal='8' />
+                  <column datatype='integer' name='Quantity' ordinal='9' />
+                  <column datatype='real' name='SalesAmount' ordinal='10' />
+                  <column datatype='real' name='Profit' ordinal='11' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Average Order Value'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (masterdataanalytics)' name='federated.0aseg4301hfego16ka7931q10ped' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0aseg4301hfego16ka7931q10ped'>
+            <column caption='min(1)' datatype='integer' name='[Calculation_556194572367261704]' role='measure' type='quantitative' user:unnamed='Average Order Value'>
+              <calculation class='tableau' formula='min(1)' />
+            </column>
+            <column caption='Sales Amount' datatype='real' name='[SalesAmount]' role='measure' type='quantitative' />
+            <column-instance column='[SalesAmount]' derivation='Avg' name='[avg:SalesAmount:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_556194572367261704]' derivation='User' name='[usr:Calculation_556194572367261704:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.0aseg4301hfego16ka7931q10ped].[usr:Calculation_556194572367261704:qk]' scope='rows' value='false' />
+            <format attr='display' class='0' field='[federated.0aseg4301hfego16ka7931q10ped].[usr:Calculation_556194572367261704:qk]' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0aseg4301hfego16ka7931q10ped].[avg:SalesAmount:qk]' value='C3081%' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Text' />
+            <encodings>
+              <text column='[federated.0aseg4301hfego16ka7931q10ped].[avg:SalesAmount:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0aseg4301hfego16ka7931q10ped].[usr:Calculation_556194572367261704:qk]</rows>
+        <cols>[federated.0aseg4301hfego16ka7931q10ped].[usr:Calculation_556194572367261704:qk]</cols>
+      </table>
+      <simple-id uuid='{1802C5D3-5E04-44A2-9E1E-D98791216DA8}' />
+    </worksheet>
+    <worksheet name='Membership Analysis'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (masterdataanalytics)' name='federated.0aseg4301hfego16ka7931q10ped' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0aseg4301hfego16ka7931q10ped'>
+            <column datatype='string' name='[Membership]' role='dimension' type='nominal' />
+            <column caption='Sales Amount' datatype='real' name='[SalesAmount]' role='measure' type='quantitative' />
+            <column-instance column='[Membership]' derivation='None' name='[none:Membership:nk]' pivot='key' type='nominal' />
+            <column-instance column='[SalesAmount]' derivation='Sum' name='[pcto:sum:SalesAmount:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='color' value='#f9a655' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0aseg4301hfego16ka7931q10ped].[none:Membership:nk]' />
+              <wedge-size column='[federated.0aseg4301hfego16ka7931q10ped].[pcto:sum:SalesAmount:qk]' />
+              <text column='[federated.0aseg4301hfego16ka7931q10ped].[pcto:sum:SalesAmount:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='user' />
+                <format attr='color' value='#000000' />
+                <format attr='font-weight' value='normal' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='2' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+        <mark-labels>
+          <mark-label id='0'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0aseg4301hfego16ka7931q10ped].[none:Membership:nk]</field>
+                  <field>[federated.0aseg4301hfego16ka7931q10ped].[pcto:sum:SalesAmount:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Gold&quot;</value>
+                <value>0.31905441346793417</value>
+              </tuple>
+            </tuple-reference>
+            <label-position x='-79' y='6' />
+          </mark-label>
+        </mark-labels>
+      </table>
+      <simple-id uuid='{B41DA2CD-F191-42B3-9D02-225B44E9419D}' />
+    </worksheet>
+    <worksheet name='Monthly Sales Trend'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (masterdataanalytics)' name='federated.0aseg4301hfego16ka7931q10ped' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0aseg4301hfego16ka7931q10ped'>
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column caption='Sales Amount' datatype='real' name='[SalesAmount]' role='measure' type='quantitative' />
+            <column-instance column='[Date]' derivation='Month' name='[mn:Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[SalesAmount]' derivation='Sum' name='[sum:SalesAmount:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <text column='[federated.0aseg4301hfego16ka7931q10ped].[sum:SalesAmount:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0aseg4301hfego16ka7931q10ped].[sum:SalesAmount:qk]</rows>
+        <cols>[federated.0aseg4301hfego16ka7931q10ped].[mn:Date:ok]</cols>
+      </table>
+      <simple-id uuid='{8445387E-8080-4B70-BCDB-138E4BB405E3}' />
+    </worksheet>
+    <worksheet name='Profit Margin'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (masterdataanalytics)' name='federated.0aseg4301hfego16ka7931q10ped' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0aseg4301hfego16ka7931q10ped'>
+            <column caption='Profit Margin' datatype='real' default-format='p0.00%' name='[Calculation_556194572352389120]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([Profit]) / SUM([SalesAmount])' />
+            </column>
+            <column caption='min(1)' datatype='integer' name='[Calculation_556194572367491082]' role='measure' type='quantitative' user:unnamed='Profit Margin'>
+              <calculation class='tableau' formula='min(1)' />
+            </column>
+            <column datatype='real' name='[Profit]' role='measure' type='quantitative' />
+            <column caption='Sales Amount' datatype='real' name='[SalesAmount]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_556194572352389120]' derivation='User' name='[usr:Calculation_556194572352389120:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_556194572367491082]' derivation='User' name='[usr:Calculation_556194572367491082:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.0aseg4301hfego16ka7931q10ped].[usr:Calculation_556194572367491082:qk]' scope='rows' value='false' />
+            <format attr='display' class='0' field='[federated.0aseg4301hfego16ka7931q10ped].[usr:Calculation_556194572367491082:qk]' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0aseg4301hfego16ka7931q10ped].[usr:Calculation_556194572367491082:qk]' value='C3081%' />
+            <format attr='text-format' field='[federated.0aseg4301hfego16ka7931q10ped].[usr:Calculation_556194572352389120:qk]' value='' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Text' />
+            <encodings>
+              <text column='[federated.0aseg4301hfego16ka7931q10ped].[usr:Calculation_556194572352389120:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0aseg4301hfego16ka7931q10ped].[usr:Calculation_556194572367491082:qk]</rows>
+        <cols>[federated.0aseg4301hfego16ka7931q10ped].[usr:Calculation_556194572367491082:qk]</cols>
+      </table>
+      <simple-id uuid='{9F881F23-317B-42D7-B346-80467C3EF40E}' />
+    </worksheet>
+    <worksheet name='Sales by Category'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (masterdataanalytics)' name='federated.0aseg4301hfego16ka7931q10ped' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0aseg4301hfego16ka7931q10ped'>
+            <column datatype='string' name='[Category]' role='dimension' type='nominal' />
+            <column caption='Sales Amount' datatype='real' name='[SalesAmount]' role='measure' type='quantitative' />
+            <column-instance column='[Category]' derivation='None' name='[none:Category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[SalesAmount]' derivation='Sum' name='[sum:SalesAmount:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <computed-sort column='[federated.0aseg4301hfego16ka7931q10ped].[none:Category:nk]' direction='DESC' using='[federated.0aseg4301hfego16ka7931q10ped].[sum:SalesAmount:qk]' />
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0aseg4301hfego16ka7931q10ped].[sum:SalesAmount:qk]' value='C3081%' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0aseg4301hfego16ka7931q10ped].[sum:SalesAmount:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0aseg4301hfego16ka7931q10ped].[none:Category:nk]</rows>
+        <cols>[federated.0aseg4301hfego16ka7931q10ped].[sum:SalesAmount:qk]</cols>
+      </table>
+      <simple-id uuid='{1E979B36-2B0C-477A-A098-D1C38DD83766}' />
+    </worksheet>
+    <worksheet name='Sales by State'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (masterdataanalytics)' name='federated.0aseg4301hfego16ka7931q10ped' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0aseg4301hfego16ka7931q10ped'>
+            <column caption='Sales Amount' datatype='real' name='[SalesAmount]' role='measure' type='quantitative' />
+            <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
+            <column-instance column='[SalesAmount]' derivation='Sum' name='[sum:SalesAmount:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <computed-sort column='[federated.0aseg4301hfego16ka7931q10ped].[none:State:nk]' direction='DESC' using='[federated.0aseg4301hfego16ka7931q10ped].[sum:SalesAmount:qk]' />
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+            <format attr='tick-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0aseg4301hfego16ka7931q10ped].[sum:SalesAmount:qk]' value='C3081%' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0aseg4301hfego16ka7931q10ped].[sum:SalesAmount:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0aseg4301hfego16ka7931q10ped].[none:State:nk]</rows>
+        <cols>[federated.0aseg4301hfego16ka7931q10ped].[sum:SalesAmount:qk]</cols>
+      </table>
+      <simple-id uuid='{C07A4453-FE90-4AF0-91E2-51FEBA3C40BE}' />
+    </worksheet>
+    <worksheet name='Sheet 11'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{10AFAB91-15D4-44EB-B517-DDA7911545AC}' />
+    </worksheet>
+    <worksheet name='Sheet 12'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{2877A01A-140D-4C6D-914C-833587EA6DC5}' />
+    </worksheet>
+    <worksheet name='Top Products'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (masterdataanalytics)' name='federated.0aseg4301hfego16ka7931q10ped' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0aseg4301hfego16ka7931q10ped'>
+            <column caption='Product Name' datatype='string' name='[ProductName]' role='dimension' type='nominal' />
+            <column caption='Sales Amount' datatype='real' name='[SalesAmount]' role='measure' type='quantitative' />
+            <column-instance column='[ProductName]' derivation='None' name='[none:ProductName:nk]' pivot='key' type='nominal' />
+            <column-instance column='[SalesAmount]' derivation='Sum' name='[sum:SalesAmount:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0aseg4301hfego16ka7931q10ped].[none:ProductName:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([SalesAmount])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:ProductName:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <computed-sort column='[federated.0aseg4301hfego16ka7931q10ped].[none:ProductName:nk]' direction='DESC' using='[federated.0aseg4301hfego16ka7931q10ped].[sum:SalesAmount:qk]' />
+          <slices>
+            <column>[federated.0aseg4301hfego16ka7931q10ped].[none:ProductName:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0aseg4301hfego16ka7931q10ped].[sum:SalesAmount:qk]' value='C3081%' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0aseg4301hfego16ka7931q10ped].[sum:SalesAmount:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0aseg4301hfego16ka7931q10ped].[none:ProductName:nk]</rows>
+        <cols>[federated.0aseg4301hfego16ka7931q10ped].[sum:SalesAmount:qk]</cols>
+      </table>
+      <simple-id uuid='{986F6D2A-2B17-4F88-B44B-E24C505472A4}' />
+    </worksheet>
+    <worksheet name='Total Orders'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (masterdataanalytics)' name='federated.0aseg4301hfego16ka7931q10ped' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0aseg4301hfego16ka7931q10ped'>
+            <column caption='min(1)' datatype='integer' name='[Calculation_556194572366921734]' role='measure' type='quantitative' user:unnamed='Total Orders'>
+              <calculation class='tableau' formula='min(1)' />
+            </column>
+            <column caption='Sale ID' datatype='string' name='[SaleID]' role='dimension' type='nominal' />
+            <column-instance column='[SaleID]' derivation='Count' name='[cnt:SaleID:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_556194572366921734]' derivation='User' name='[usr:Calculation_556194572366921734:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.0aseg4301hfego16ka7931q10ped].[usr:Calculation_556194572366921734:qk]' scope='rows' value='false' />
+            <format attr='display' class='0' field='[federated.0aseg4301hfego16ka7931q10ped].[usr:Calculation_556194572366921734:qk]' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0aseg4301hfego16ka7931q10ped].[usr:Calculation_556194572366921734:qk]' value='C3081%' />
+            <format attr='text-format' field='[federated.0aseg4301hfego16ka7931q10ped].[cnt:SaleID:qk]' value='C3081%' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Text' />
+            <encodings>
+              <text column='[federated.0aseg4301hfego16ka7931q10ped].[cnt:SaleID:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0aseg4301hfego16ka7931q10ped].[usr:Calculation_556194572366921734:qk]</rows>
+        <cols>[federated.0aseg4301hfego16ka7931q10ped].[usr:Calculation_556194572366921734:qk]</cols>
+      </table>
+      <simple-id uuid='{40EB17F9-9BC1-41E5-8B16-762ADA88C4EA}' />
+    </worksheet>
+    <worksheet name='Total Profit'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (masterdataanalytics)' name='federated.0aseg4301hfego16ka7931q10ped' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0aseg4301hfego16ka7931q10ped'>
+            <column caption='min(1)' datatype='integer' name='[Calculation_556194572367740940]' role='measure' type='quantitative' user:unnamed='Total Profit'>
+              <calculation class='tableau' formula='min(1)' />
+            </column>
+            <column datatype='real' name='[Profit]' role='measure' type='quantitative' />
+            <column-instance column='[Profit]' derivation='Sum' name='[sum:Profit:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_556194572367740940]' derivation='User' name='[usr:Calculation_556194572367740940:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.0aseg4301hfego16ka7931q10ped].[usr:Calculation_556194572367740940:qk]' scope='rows' value='false' />
+            <format attr='display' class='0' field='[federated.0aseg4301hfego16ka7931q10ped].[usr:Calculation_556194572367740940:qk]' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0aseg4301hfego16ka7931q10ped].[sum:Profit:qk]' value='C3081%' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Text' />
+            <encodings>
+              <text column='[federated.0aseg4301hfego16ka7931q10ped].[sum:Profit:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0aseg4301hfego16ka7931q10ped].[usr:Calculation_556194572367740940:qk]</rows>
+        <cols>[federated.0aseg4301hfego16ka7931q10ped].[usr:Calculation_556194572367740940:qk]</cols>
+      </table>
+      <simple-id uuid='{BD2AE89B-CBD2-4BF4-9D32-16C8D87943AA}' />
+    </worksheet>
+    <worksheet name='TotalSales'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (masterdataanalytics)' name='federated.0aseg4301hfego16ka7931q10ped' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0aseg4301hfego16ka7931q10ped'>
+            <column caption='MIN(1)' datatype='integer' name='[Calculation_556194572365672450]' role='measure' type='quantitative' user:unnamed='TotalSales'>
+              <calculation class='tableau' formula='MIN(1)' />
+            </column>
+            <column caption='MIN(1)' datatype='integer' name='[Calculation_556194572365697028]' role='measure' type='quantitative' user:unnamed='TotalSales'>
+              <calculation class='tableau' formula='MIN(1)' />
+            </column>
+            <column caption='Sales Amount' datatype='real' name='[SalesAmount]' role='measure' type='quantitative' />
+            <column-instance column='[SalesAmount]' derivation='Sum' name='[sum:SalesAmount:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_556194572365672450]' derivation='User' name='[usr:Calculation_556194572365672450:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_556194572365697028]' derivation='User' name='[usr:Calculation_556194572365697028:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.0aseg4301hfego16ka7931q10ped].[usr:Calculation_556194572365672450:qk]' scope='cols' value='false' />
+            <format attr='display' class='0' field='[federated.0aseg4301hfego16ka7931q10ped].[usr:Calculation_556194572365697028:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0aseg4301hfego16ka7931q10ped].[sum:SalesAmount:qk]' value='C3081%' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-size' field='[federated.0aseg4301hfego16ka7931q10ped].[sum:SalesAmount:qk]' value='24' />
+            <format attr='font-weight' field='[federated.0aseg4301hfego16ka7931q10ped].[sum:SalesAmount:qk]' value='bold' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Text' />
+            <encodings>
+              <text column='[federated.0aseg4301hfego16ka7931q10ped].[sum:SalesAmount:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0aseg4301hfego16ka7931q10ped].[usr:Calculation_556194572365697028:qk]</rows>
+        <cols>[federated.0aseg4301hfego16ka7931q10ped].[usr:Calculation_556194572365672450:qk]</cols>
+      </table>
+      <simple-id uuid='{8C6F7259-934C-460D-A987-6EB47555979C}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='AustralianRetailDashboard'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98130' id='29' param='horz' type-v2='layout-flow' w='99002' x='499' y='935'>
+            <zone h='98130' id='27' param='horz' type-v2='layout-flow' w='99002' x='499' y='935'>
+              <zone h='98130' id='24' param='horz' type-v2='layout-flow' w='99002' x='499' y='935'>
+                <zone h='98130' id='22' type-v2='layout-basic' w='99002' x='499' y='935'>
+                  <zone forceUpdate='true' h='8991' id='5' type-v2='text' w='99002' x='499' y='935'>
+                    <formatted-text>
+                      <run bold='true' fontalignment='1' fontsize='22'>Australian Retail analytics Dashboard</run>
+                    </formatted-text>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='9404' id='6' layout-strategy-id='distribute-evenly' param='horz' type-v2='layout-flow' w='99002' x='499' y='9926'>
+                    <zone h='9346' id='8' name='Total Profit' w='19825' x='499' y='9930'>
+                      <layout-cache type-h='fixed' type-w='fixed' />
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                    <zone h='9346' id='7' name='TotalSales' w='19826' x='20324' y='9930'>
+                      <layout-cache fixed-size-h='91' type-h='fixed' type-w='fixed' />
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                    <zone h='9346' id='9' name='Total Orders' w='19825' x='40150' y='9930'>
+                      <layout-cache type-h='fixed' type-w='fixed' />
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                    <zone h='9346' id='10' name='Average Order Value' w='19763' x='59975' y='9930'>
+                      <layout-cache type-h='fixed' type-w='fixed' />
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                    <zone h='9346' id='11' name='Profit Margin' w='19763' x='79738' y='9930'>
+                      <layout-cache type-h='fixed' type-w='fixed' />
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                  </zone>
+                  <zone h='30670' id='12' param='horz' type-v2='layout-flow' w='99002' x='499' y='19330'>
+                    <zone h='30670' id='13' name='Sales by State' w='50124' x='499' y='19330'>
+                      <layout-cache minwidth='220' type-h='fixed' type-w='scalable' />
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                    <zone h='30670' id='18' name='Sales by Category' w='48877' x='50623' y='19330'>
+                      <layout-cache minwidth='200' type-h='fixed' type-w='scalable' />
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                  </zone>
+                  <zone h='16558' id='16' param='horz' type-v2='layout-flow' w='99002' x='499' y='50000'>
+                    <zone h='16558' id='19' name='Monthly Sales Trend' w='99002' x='499' y='50000'>
+                      <layout-cache cell-count-w='12' minheight='164' non-cell-size-w='66' type-h='scalable' type-w='cell' />
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                  </zone>
+                  <zone h='32507' id='17' layout-strategy-id='distribute-evenly' param='horz' type-v2='layout-flow' w='99002' x='499' y='66558'>
+                    <zone h='32476' id='20' name='Top Products' w='49501' x='499' y='66589'>
+                      <layout-cache minwidth='260' type-h='fixed' type-w='scalable' />
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                    <zone h='32476' id='25' name='Membership Analysis' w='49501' x='50000' y='66589'>
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                  </zone>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='7992' id='30' name='Membership Analysis' pane-specification-id='0' param='[federated.0aseg4301hfego16ka7931q10ped].[none:Membership:nk]' type-v2='color' w='8728' x='88092' y='69262' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1700' minheight='1700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='34' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98130' id='33' param='vert' type-v2='layout-flow' w='99002' x='499' y='935'>
+                <zone forceUpdate='true' h='8991' id='5' type-v2='text' w='99002' x='499' y='935'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontsize='22'>Australian Retail analytics Dashboard</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='67' h='9346' id='8' is-fixed='true' name='Total Profit' w='19825' x='499' y='9930'>
+                  <layout-cache type-h='fixed' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='67' h='9346' id='7' is-fixed='true' name='TotalSales' w='19826' x='20324' y='9930'>
+                  <layout-cache fixed-size-h='91' type-h='fixed' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='67' h='9346' id='9' is-fixed='true' name='Total Orders' w='19825' x='40150' y='9930'>
+                  <layout-cache type-h='fixed' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='67' h='9346' id='10' is-fixed='true' name='Average Order Value' w='19763' x='59975' y='9930'>
+                  <layout-cache type-h='fixed' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='67' h='9346' id='11' is-fixed='true' name='Profit Margin' w='19763' x='79738' y='9930'>
+                  <layout-cache type-h='fixed' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='237' h='30670' id='13' is-fixed='true' name='Sales by State' w='50124' x='499' y='19330'>
+                  <layout-cache minwidth='220' type-h='fixed' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='237' h='30670' id='18' is-fixed='true' name='Sales by Category' w='48877' x='50623' y='19330'>
+                  <layout-cache minwidth='200' type-h='fixed' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='124' h='16558' id='19' is-fixed='true' name='Monthly Sales Trend' w='99002' x='499' y='50000'>
+                  <layout-cache cell-count-w='12' minheight='164' non-cell-size-w='66' type-h='scalable' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='252' h='32476' id='20' is-fixed='true' name='Top Products' w='49501' x='499' y='66589'>
+                  <layout-cache minwidth='260' type-h='fixed' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='252' h='32476' id='25' is-fixed='true' name='Membership Analysis' w='49501' x='50000' y='66589'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='7992' id='30' name='Membership Analysis' pane-specification-id='0' param='[federated.0aseg4301hfego16ka7931q10ped].[none:Membership:nk]' type-v2='color' w='8728' x='88092' y='69262'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{3A44AC68-488B-4BCE-8A8D-8DB2D7A5BFAE}' />
+    </dashboard>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style>
+        <style-rule element='dash-text'>
+          <format attr='text-align' id='dash-text_3' value='center' />
+          <format attr='vertical-align' id='dash-text_3' value='top' />
+        </style-rule>
+      </style>
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98130' id='5' param='horz' type-v2='layout-flow' w='99064' x='468' y='935'>
+            <zone h='98130' id='7' name='Total Profit' w='5149' x='468' y='935'>
+              <layout-cache fixed-size-w='80' type-h='fixed' type-w='fixed' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='98130' id='6' name='TotalSales' w='5149' x='5617' y='935'>
+              <layout-cache fixed-size-h='91' fixed-size-w='80' type-h='fixed' type-w='fixed' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='98130' id='8' name='Total Orders' w='3979' x='10766' y='935'>
+              <layout-cache fixed-size-w='60' type-h='fixed' type-w='fixed' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='98130' id='9' name='Average Order Value' w='3979' x='14745' y='935'>
+              <layout-cache fixed-size-w='60' type-h='fixed' type-w='fixed' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='98130' id='10' name='Profit Margin' w='3979' x='18724' y='935'>
+              <layout-cache fixed-size-w='60' type-h='fixed' type-w='fixed' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='5491' id='3' type-v2='text' w='30252' x='24634' y='1869'>
+          <formatted-text>
+            <run bold='true' fontsize='20'>Australian Retail Analytics Dashboard</run>
+          </formatted-text>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1550' minheight='1550' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='14' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98130' id='13' param='vert' type-v2='layout-flow' w='99064' x='468' y='935'>
+                <zone fixed-size='280' h='98130' id='7' is-fixed='true' name='Total Profit' w='5149' x='468' y='935'>
+                  <layout-cache fixed-size-w='80' type-h='fixed' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='98130' id='6' is-fixed='true' name='TotalSales' w='5149' x='5617' y='935'>
+                  <layout-cache fixed-size-h='91' fixed-size-w='80' type-h='fixed' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='98130' id='8' is-fixed='true' name='Total Orders' w='3979' x='10766' y='935'>
+                  <layout-cache fixed-size-w='60' type-h='fixed' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='98130' id='9' is-fixed='true' name='Average Order Value' w='3979' x='14745' y='935'>
+                  <layout-cache fixed-size-w='60' type-h='fixed' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='98130' id='10' is-fixed='true' name='Profit Margin' w='3979' x='18724' y='935'>
+                  <layout-cache fixed-size-w='60' type-h='fixed' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='5491' id='3' type-v2='text' w='30252' x='24634' y='1869'>
+                  <formatted-text>
+                    <run bold='true' fontsize='20'>Australian Retail Analytics Dashboard</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{FCD1885B-3843-4FA2-BBC3-9DEAC8CD6506}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Sales by State'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{1290E619-BE8B-4E3B-958F-7F159E771839}' />
+    </window>
+    <window class='worksheet' name='Sales by Category'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{63C7FCAF-5B5F-47A3-A3C6-3070F9215D76}' />
+    </window>
+    <window class='worksheet' name='Monthly Sales Trend'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{9B730A8D-5B75-4D6F-95B1-2C7AD6CAA4E5}' />
+    </window>
+    <window class='worksheet' name='Top Products'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{52E8D6F5-5CF9-4EB1-9B0B-EBA6F9D258A7}' />
+    </window>
+    <window class='worksheet' name='Membership Analysis'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0aseg4301hfego16ka7931q10ped].[none:Membership:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{B9D4D15E-D177-4551-AC4D-02C52D0FCD34}' />
+    </window>
+    <window class='worksheet' name='TotalSales'>
+      <cards>
+        <edge name='left'>
+          <strip size='212'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{F8E021F9-DD09-403F-810D-9CFD62E83E6F}' />
+    </window>
+    <window class='worksheet' name='Total Profit'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{5E05CE65-693F-4FC7-9747-2E37332EBDE6}' />
+    </window>
+    <window class='worksheet' name='Total Orders'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{04325B84-E419-4A3B-8165-3FC375EB0C3E}' />
+    </window>
+    <window class='worksheet' name='Average Order Value'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{ADF247CA-DC5D-4DEB-85C9-88E2A2EF17DE}' />
+    </window>
+    <window class='worksheet' name='Profit Margin'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{629DD569-77E6-456E-B390-65A67B52EC39}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Average Order Value' />
+        <viewpoint name='Profit Margin' />
+        <viewpoint name='Total Orders' />
+        <viewpoint name='Total Profit' />
+        <viewpoint name='TotalSales' />
+      </viewpoints>
+      <active id='3' />
+      <simple-id uuid='{887AE65C-80C5-4194-B7D8-F5E37ABE43F0}' />
+    </window>
+    <window class='worksheet' name='Sheet 11'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{1F11CCEC-2C2A-48E3-8FBE-F2965D89947F}' />
+    </window>
+    <window class='worksheet' name='Sheet 12'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{67A462CF-F6EA-425B-82CD-3B2CA62113E8}' />
+    </window>
+    <window class='dashboard' maximized='true' name='AustralianRetailDashboard'>
+      <viewpoints>
+        <viewpoint name='Average Order Value'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Membership Analysis'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Monthly Sales Trend'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Profit Margin'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sales by Category' />
+        <viewpoint name='Sales by State' />
+        <viewpoint name='Top Products' />
+        <viewpoint name='Total Orders'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Total Profit'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='TotalSales'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='11' />
+      <simple-id uuid='{78B22369-15B1-4B4F-982E-FED74D2BE497}' />
+    </window>
+  </windows>
+</workbook>
